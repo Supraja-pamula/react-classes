@@ -1,15 +1,10 @@
 
-import './App.css'
-
-function Child(){
-  return <h3>Supraja pamula</h3>
-}
-
+import { Withoutjsx } from "./Withoutjsx"
 function App() { 
   return (
     <div>
       <h1>Hello World</h1>
-      <Child/>
+      <Withoutjsx/>
     </div>
    
   )
