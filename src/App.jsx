@@ -1,18 +1,15 @@
-
-import './App.css'
-
-function Child(){
-  return <h3>Supraja pamula</h3>
-}
-
+import { Welcome } from './Welcome'
+import { Products } from './Products'
 function App() { 
   return (
     <div>
       <h1>Hello World</h1>
-      <Child/>
-    </div>
-   
+      <Welcome userName="Supraja"/>
+      <Welcome userName="Kiran"/>
+      <Welcome userName="kinnu"/>
+
+      <Products title="mobile" price={20000} isAvailable={true} itemsIncluded={["charger","pouch"]}/>
+    </div> 
   )
 }
-
 export default App
