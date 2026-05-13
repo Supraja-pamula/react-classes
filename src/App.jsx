@@ -1,15 +1,13 @@
 
 import './App.css'
-
-function Child(){
-  return <h3>Supraja pamula</h3>
-}
-
+import Welcome from './Welcome'
+import { Goodbye } from './Goodbye'
 function App() { 
   return (
     <div>
       <h1>Hello World</h1>
-      <Child/>
+      <Welcome/>
+      <Goodbye/>
     </div>
    
   )
